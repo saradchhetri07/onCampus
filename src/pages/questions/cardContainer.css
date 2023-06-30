@@ -1,0 +1,9 @@
+.card-container {
+  height: 600px;
+  margin: 20px 20px 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 100%; /* Set the desired height for the card grid */
+  overflow: auto;
+}
